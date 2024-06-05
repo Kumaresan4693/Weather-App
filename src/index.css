@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.overall {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* position: relative; */
+}
+.bg {
+  background: url("./pexels-peterfazekas-1089455.jpg") no-repeat;
+  background-size: cover;
+}
+.vid {
+  width: 100%;
+  height: 100vh;
+  display: none;
+  position: relative;
+}
+.block {
+  width: 100%;
+  height: 100vh;
+  /* display: none; */
+  position: relative;
+  display: block;
+}
+video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.card {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  border-radius: 10px;
+  position: absolute;
+}
+.wrap {
+  width: 100%;
+  position: relative;
+}
+.wrap input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.wrap .icon {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 30px;
+}
+.box {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+  font-size: 18px;
+}
+#click {
+  display: none;
+}
